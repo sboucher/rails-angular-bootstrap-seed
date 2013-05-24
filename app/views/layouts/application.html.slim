@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+  title Rails Angular Bootstrap Seed
+  meta name='keywords' content=''
+  meta name='author' content=''
+  / meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'
+
+  = stylesheet_link_tag "application", media: "all"
+  = javascript_include_tag 'http://code.jquery.com/jquery-1.9.1.min.js', 'https://ajax.googleapis.com/ajax/libs/angularjs/1.1.4/angular.min.js', 'https://ajax.googleapis.com/ajax/libs/angularjs/1.1.4/angular-resource.min.js', 'https://ajax.googleapis.com/ajax/libs/angularjs/1.1.4/angular-loader.min.js', 'http://cdnjs.cloudflare.com/ajax/libs/angular-ui/0.4.0/angular-ui.min.js', 'application'
+  = csrf_meta_tags
+
+  body
+    = yield
+    

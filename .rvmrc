@@ -1,2 +1,4 @@
+#!/usr/bin/env bash
+
 rvm use 2.0.0-p195@rails-angular-bootstrap-seed
 bundle install --binstubs=.bundle_stubs
