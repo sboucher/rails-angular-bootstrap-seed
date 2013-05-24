@@ -22,7 +22,7 @@ The goal of this project is to provide a seed app structure for a stack includin
 - angular-bootstrap for visual bootstraping
 
 
-### Tools
+## Tools
 
 - git flow 
 - guard
