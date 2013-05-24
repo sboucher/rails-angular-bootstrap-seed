@@ -1,7 +1,7 @@
 rails-angular-bootstrap-seed
 ============================
 
-This is a project seed with Rails 4, Angularjs 1.1.4 and Twitter Bootstrap
+The goal of this project is to provide a seed app structure for a stack including Rails 4, Angularjs 1.1.4 and Twitter Bootstrap.
 
 
 ## What's in it
@@ -19,12 +19,13 @@ This is a project seed with Rails 4, Angularjs 1.1.4 and Twitter Bootstrap
 - terminal-notifier-guard for test status notifications
 - database_cleaner for clearing test database after each run
 - selenium-webdriver for full integration testing with javascript
-
-
+- Twitter Bootstrap for visual bootstraping
 
 
 ### Tools
 - git flow 
+- guard
+- 
 
 ## How to get it up and running
 - You may first change the databases names in `config/database.yml` create the database
