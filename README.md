@@ -19,18 +19,10 @@ The goal of this project is to provide a seed app structure for a stack includin
 - terminal-notifier-guard for test status notifications
 - database_cleaner for clearing test database after each run
 - selenium-webdriver for full integration testing with javascript
-- Twitter Bootstrap for visual bootstraping
+- angular-bootstrap for visual bootstraping
 
 
 ### Tools
+
 - git flow 
 - guard
-- 
-
-## How to get it up and running
-- You may first change the databases names in `config/database.yml` create the database
-
-```shell
-rake db:create
-```
-
